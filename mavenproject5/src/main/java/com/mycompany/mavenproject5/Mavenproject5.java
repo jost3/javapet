@@ -46,7 +46,7 @@ public class Mavenproject5 {
                 }
             }
             
-            int temp = ar[indiceMenor];
+            int temp = arr[indiceMenor];
             arr[indiceMenor] = arr[i];
             arr[i] = temp;
         }
