@@ -4,13 +4,17 @@
 
 package com.mycompany.mavenproject5;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Alumno
  */
 public class Mavenproject5 {
-
+ 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        //lammas el scanner
+        SCanner burb1 = new Scanner(System.in);
     }
 }
