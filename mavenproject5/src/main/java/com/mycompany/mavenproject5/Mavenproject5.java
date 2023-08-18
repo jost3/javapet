@@ -15,6 +15,17 @@ public class Mavenproject5 {
     public static void main(String[] args) {
         
         //lammas el scanner
-        SCanner burb1 = new Scanner(System.in);
+        Scanner burb1 = new Scanner(System.in);
+        
+        System.out.println("ingresa el primer numero: ");
+        int n1 = burb1.nextInt();
+        System.out.println("ingresa el segundo numero: ");
+        int n2 = burb1.nextInt();
+        System.out.println("ingresa en tercer nummero: ");
+        int n3 = burb1.nextInt();
+        System.out.println("ingresa el cuarto nummero: ");
+        int n4 = burb1.nextInt();
+        System.out.println("ingresa el quinto nummero: ");
+        int n5 = burb1.nextInt();
     }
 }
