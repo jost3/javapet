@@ -36,7 +36,20 @@ public class Mavenproject5 {
         
     }
     public static void menormayor(int[] arr) {
-        
+          int n = arr.length;
+                  for (int i = 0; i < n - 1; i++) {
+            int indiceMenor = i;
+            
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[indiceMenor]) {
+                    indiceMenor = j;
+                }
+            }
+            
+            int temp = ar[indiceMenor];
+            arr[indiceMenor] = arr[i];
+            arr[i] = temp;
+        }
     }
      public static void arreglo(int[] arr) {
          
